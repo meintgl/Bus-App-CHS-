@@ -1,0 +1,4 @@
+platform :ios, '8.1'
+target "YourProjectNameHere" do
+pod 'Firebase'
+end
