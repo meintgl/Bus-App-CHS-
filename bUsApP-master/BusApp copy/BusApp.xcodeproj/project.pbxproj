@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1588512F237B546400A15112 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588512E237B546400A15112 /* MapViewController.swift */; };
+		15885131237B54E000A15112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15885130237B54E000A15112 /* HomeViewController.swift */; };
 		15922F01236B75CB00B6001D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15922F00236B75CB00B6001D /* GoogleService-Info.plist */; };
 		15922F02236B75CB00B6001D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15922F00236B75CB00B6001D /* GoogleService-Info.plist */; };
 		15922F03236B75CB00B6001D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15922F00236B75CB00B6001D /* GoogleService-Info.plist */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1588512E237B546400A15112 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../MapViewController.swift; sourceTree = "<group>"; };
+		15885130237B54E000A15112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15922F00236B75CB00B6001D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		15922F04236B7E5100B6001D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		15B03F32236786A900F64404 /* BusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +110,9 @@
 			children = (
 				15B03F35236786A900F64404 /* AppDelegate.swift */,
 				15B03F37236786A900F64404 /* ViewController.swift */,
+				1588512E237B546400A15112 /* MapViewController.swift */,
 				15B03F39236786A900F64404 /* Main.storyboard */,
+				15885130237B54E000A15112 /* HomeViewController.swift */,
 				15B03F3C236786AA00F64404 /* Assets.xcassets */,
 				15B03F3E236786AA00F64404 /* LaunchScreen.storyboard */,
 				15B03F41236786AA00F64404 /* Info.plist */,
@@ -269,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B03F38236786A900F64404 /* ViewController.swift in Sources */,
+				1588512F237B546400A15112 /* MapViewController.swift in Sources */,
 				15B03F36236786A900F64404 /* AppDelegate.swift in Sources */,
+				15885131237B54E000A15112 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
