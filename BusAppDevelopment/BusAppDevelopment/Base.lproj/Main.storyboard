@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BusAppDevelopment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Webp.net-resizeimage" translatesAutoresizingMaskIntoConstraints="NO" id="I2z-WC-aZ2" userLabel="Red Gradient Background">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0161-removebg-preview-2" translatesAutoresizingMaskIntoConstraints="NO" id="FhC-tt-P9a" userLabel="Bus PNG Image">
+                                <rect key="frame" x="-28" y="37" width="431" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="F0w-E3-l77"/>
+                                    <constraint firstAttribute="width" constant="431" id="gqf-QH-bci"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISD Bus Buddy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Yp-Tz-aam" userLabel="Title CISD Bus Buddy">
+                                <rect key="frame" x="98.5" y="122" width="178" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WIf-5n-XjA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpq-ro-dcM" userLabel="White Top Line">
+                                <rect key="frame" x="0.0" y="169" width="375" height="2"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="2" id="Kbe-8r-HsG"/>
+                                    <constraint firstAttribute="height" constant="2" id="MHD-sm-Nde"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2" id="ZFg-lj-cBB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real-time tracking." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmH-ZH-2Op">
+                                <rect key="frame" x="65.5" y="336" width="244" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Location Icon" translatesAutoresizingMaskIntoConstraints="NO" id="NWo-G7-4ab">
+                                <rect key="frame" x="-68.5" y="201" width="512" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="09D-DI-IrR"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="512" id="DxY-LY-YqG"/>
+                                    <constraint firstAttribute="height" constant="100" id="Koj-uJ-JR8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="512" id="Wae-uX-AYK"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="iSO-q0-k3m"/>
+                                    <constraint firstAttribute="width" constant="512" id="oQb-aV-Xvc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JmH-ZH-2Op" firstAttribute="top" secondItem="NWo-G7-4ab" secondAttribute="bottom" constant="35" id="30r-c2-P1P"/>
+                            <constraint firstItem="0Yp-Tz-aam" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Wl-4g-Nn6"/>
+                            <constraint firstAttribute="bottom" secondItem="I2z-WC-aZ2" secondAttribute="bottom" id="5kd-SL-1N4"/>
+                            <constraint firstItem="FhC-tt-P9a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="7tm-SU-ibg"/>
+                            <constraint firstItem="I2z-WC-aZ2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q5z-zt-Mwo"/>
+                            <constraint firstAttribute="trailing" secondItem="I2z-WC-aZ2" secondAttribute="trailing" id="Tg2-xU-Cas"/>
+                            <constraint firstItem="NWo-G7-4ab" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UsB-2e-E5w"/>
+                            <constraint firstItem="JmH-ZH-2Op" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W5Q-gq-PIE"/>
+                            <constraint firstItem="dpq-ro-dcM" firstAttribute="top" secondItem="FhC-tt-P9a" secondAttribute="bottom" constant="50" id="e00-1h-ULY"/>
+                            <constraint firstItem="dpq-ro-dcM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k76-ZK-5Es"/>
+                            <constraint firstItem="FhC-tt-P9a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ooQ-M3-7A7"/>
+                            <constraint firstItem="I2z-WC-aZ2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qbZ-oX-zCn"/>
+                            <constraint firstAttribute="trailing" secondItem="dpq-ro-dcM" secondAttribute="trailing" id="rLp-VZ-CdI"/>
+                            <constraint firstItem="NWo-G7-4ab" firstAttribute="top" secondItem="dpq-ro-dcM" secondAttribute="bottom" constant="30" id="rRb-0Z-meB"/>
+                            <constraint firstItem="0Yp-Tz-aam" firstAttribute="top" secondItem="FhC-tt-P9a" secondAttribute="bottom" constant="3" id="uez-jO-EKR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="109.29535232383809"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0161-removebg-preview-2" width="431" height="143"/>
+        <image name="Location Icon" width="512" height="512"/>
+        <image name="Webp.net-resizeimage" width="750" height="1334"/>
+    </resources>
+</document>
