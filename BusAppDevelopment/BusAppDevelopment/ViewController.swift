@@ -10,9 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var usernameField: UITextField!
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBOutlet weak var logInButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        usernameField.layer.borderColor = UIColor.white.cgColor
+        passwordField.layer.borderColor = UIColor.white.cgColor
+        
+        logInButton.layer.cornerRadius = 5
+        
     }
 
 
