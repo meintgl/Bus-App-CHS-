@@ -13,7 +13,9 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.redColor()
+        
+        view.backgroundColor = .green
+   
     }
     
 
