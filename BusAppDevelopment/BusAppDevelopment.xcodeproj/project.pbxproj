@@ -12,6 +12,9 @@
 		15198052237F4DDC00790354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15198050237F4DDC00790354 /* Main.storyboard */; };
 		15198054237F4DDC00790354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15198053237F4DDC00790354 /* Assets.xcassets */; };
 		15198057237F4DDC00790354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15198055237F4DDC00790354 /* LaunchScreen.storyboard */; };
+		1573E63D23873EA700DE4DF4 /* SignupOogaBooga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573E63C23873EA700DE4DF4 /* SignupOogaBooga.swift */; };
+		1573E63F23873EB800DE4DF4 /* LoginOogaBooga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573E63E23873EB800DE4DF4 /* LoginOogaBooga.swift */; };
+		1573E6412388894400DE4DF4 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1573E6402388894400DE4DF4 /* GoogleService-Info-2.plist */; };
 		F2552D7623849CBD009EB465 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2552D7523849CBD009EB465 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		15198053237F4DDC00790354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15198056237F4DDC00790354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15198058237F4DDC00790354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1573E63C23873EA700DE4DF4 /* SignupOogaBooga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupOogaBooga.swift; sourceTree = "<group>"; };
+		1573E63E23873EB800DE4DF4 /* LoginOogaBooga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOogaBooga.swift; sourceTree = "<group>"; };
+		1573E6402388894400DE4DF4 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		F2552D7523849CBD009EB465 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +62,7 @@
 		1519804B237F4DDC00790354 /* BusAppDevelopment */ = {
 			isa = PBXGroup;
 			children = (
+				1573E6402388894400DE4DF4 /* GoogleService-Info-2.plist */,
 				1519804C237F4DDC00790354 /* AppDelegate.swift */,
 				15198050237F4DDC00790354 /* Main.storyboard */,
 				F2552D7523849CBD009EB465 /* MapViewController.swift */,
@@ -63,6 +70,8 @@
 				15198053237F4DDC00790354 /* Assets.xcassets */,
 				15198055237F4DDC00790354 /* LaunchScreen.storyboard */,
 				15198058237F4DDC00790354 /* Info.plist */,
+				1573E63C23873EA700DE4DF4 /* SignupOogaBooga.swift */,
+				1573E63E23873EB800DE4DF4 /* LoginOogaBooga.swift */,
 			);
 			path = BusAppDevelopment;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 			files = (
 				15198057237F4DDC00790354 /* LaunchScreen.storyboard in Resources */,
 				15198054237F4DDC00790354 /* Assets.xcassets in Resources */,
+				1573E6412388894400DE4DF4 /* GoogleService-Info-2.plist in Resources */,
 				15198052237F4DDC00790354 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1573E63D23873EA700DE4DF4 /* SignupOogaBooga.swift in Sources */,
+				1573E63F23873EB800DE4DF4 /* LoginOogaBooga.swift in Sources */,
 				1519804F237F4DDC00790354 /* ViewController.swift in Sources */,
 				F2552D7623849CBD009EB465 /* MapViewController.swift in Sources */,
 				1519804D237F4DDC00790354 /* AppDelegate.swift in Sources */,

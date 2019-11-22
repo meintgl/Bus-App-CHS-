@@ -16,6 +16,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var logInButton: UIButton!
     
+    @IBAction func buttonTapped(_ sender: Any) {
+     let meinhard = 
+        
+        
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +33,8 @@ class ViewController: UIViewController {
         passwordField.layer.borderColor = UIColor.white.cgColor
         
         logInButton.layer.cornerRadius = 5
+        
+        
         
     }
 
