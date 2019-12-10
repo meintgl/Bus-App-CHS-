@@ -12,6 +12,7 @@
 		572F18232388805E0037B032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572F18212388805E0037B032 /* Main.storyboard */; };
 		572F1825238880600037B032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572F1824238880600037B032 /* Assets.xcassets */; };
 		572F1828238880600037B032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572F1826238880600037B032 /* LaunchScreen.storyboard */; };
+		577B49BB239EF41300BD2E1C /* switchaddaccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B49BA239EF41300BD2E1C /* switchaddaccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		572F1824238880600037B032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572F1827238880600037B032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572F1829238880600037B032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577B49BA239EF41300BD2E1C /* switchaddaccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchaddaccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				572F181D2388805E0037B032 /* AppDelegate.swift */,
 				572F181F2388805E0037B032 /* ViewController.swift */,
 				572F18212388805E0037B032 /* Main.storyboard */,
+				577B49BA239EF41300BD2E1C /* switchaddaccountViewController.swift */,
 				572F1824238880600037B032 /* Assets.xcassets */,
 				572F1826238880600037B032 /* LaunchScreen.storyboard */,
 				572F1829238880600037B032 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577B49BB239EF41300BD2E1C /* switchaddaccountViewController.swift in Sources */,
 				572F18202388805E0037B032 /* ViewController.swift in Sources */,
 				572F181E2388805E0037B032 /* AppDelegate.swift in Sources */,
 			);

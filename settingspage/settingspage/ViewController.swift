@@ -19,5 +19,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var profileOne: UIImageView!
     
+    @IBAction func nextPage(_ sender: Any) {
+        performSegue(withIdentifier:"Switchaddaccount", sender: self)
+    }
 }
 
