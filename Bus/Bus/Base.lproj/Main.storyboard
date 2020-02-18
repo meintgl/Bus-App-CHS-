@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-11-21 at 3.12.37 PM" translatesAutoresizingMaskIntoConstraints="NO" id="H6D-30-OSp">
-                                <rect key="frame" x="0.0" y="156" width="375" height="353.00000000000045"/>
+                                <rect key="frame" x="0.0" y="156" width="375" height="353"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyf-BS-Cf6">
                                 <rect key="frame" x="171" y="295" width="33" height="34"/>
